@@ -1,0 +1,13 @@
+paths:
+  raw_data_dir: "./rawData/lobachevsky-university/data/"
+  data_dir: "./dataCache/"
+  checkpoints_dir: "./checkpoints/"
+  results_dir: "./results/"
+
+data:
+  sample_rate: 500
+  window_len: 10
+  overlap: 0.5
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
