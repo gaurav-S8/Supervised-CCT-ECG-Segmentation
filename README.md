@@ -1,6 +1,7 @@
 # Supervised-CCT-ECG-Segmentation
 
 This repository contains the implementation of my MSc thesis: "**Supervised Criss-Cross Transformer for ECG Waveform Segmentation**”, submitted to the **University of Glasgow** on **5th September 2025**.
+
 The project investigates deep learning approaches for ECG waveform segmentation, focusing on detection of P wave, QRS complex, and T wave boundaries using both baseline models and a Transformer-based architecture adapted from the Criss-Cross Attention mechanism.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
