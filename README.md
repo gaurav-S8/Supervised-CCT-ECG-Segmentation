@@ -75,7 +75,7 @@ This project evaluates three deep learning approaches:
 - **CCT performs competitively** and is strongest on **QRS boundaries**.
 - **Lead ordering matters** — shuffling drops P-wave F1 from **0.883 → 0.505**.
 
-## 🖼️ Visual Examples
+## Visual Examples
 Qualitative segmentation plots are included in the thesis, comparing:
 - Ground truth  
 - Predictions for **U-Net**, **CNN+BiLSTM**, and **CCT**
@@ -83,7 +83,7 @@ For example patient: **Record 181, Lead II**
 ![Ground Truth vs Prediction](figures/CCT_Patient_181_Lead_II_split.png)
 
 
-### 🔀 Effect of Lead Ordering
+### Effect of Lead Ordering
 An additional visualization highlights how the ordering of ECG leads affects model performance:
 - The CCT model was trained using the **physiological lead index order** (I, II, III, aVR, …, V6).
 - During inference, the same signals were shuffled alphabetically by channel name.
@@ -122,7 +122,7 @@ Supervised-CCT-ECG-Segmentation/
 └── README.md
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repo
 ```bash
