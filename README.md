@@ -96,6 +96,7 @@ This demonstrates that the CCT model learns **both temporal and spatial inter-le
   <img src="figures/CCT_Patient_191_Lead_II_split_Channels.png" width="45%">
   <img src="figures/CCT_Patient_191_Lead_II_split_Lead_Index.png" width="45%">
 </p>
+<p align="center"><b>Figure:</b> Left – Shuffled Lead Order. Right – Physiological Lead Index Order.</p>
 
 
 ## Repository Structure
